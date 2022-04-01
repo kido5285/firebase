@@ -4,12 +4,12 @@ import "firebase/storage";
 
 
 const firebaseConfig = {
-    apiKey: process.env.apiKey,
-    authDomain: process.env.authDomain,
-    projectId: process.env.projectId,
-    storageBucket: process.env.storageBucket,
-    messagingSenderId: process.env.messagingSenderId,
-    appId: process.env.appId
+    apiKey: "AIzaSyAiskzDdbfrhGZwnWYQ1CDFDIcX5EaHJ3U",
+    authDomain: "firegram-ecce9.firebaseapp.com",
+    projectId: "firegram-ecce9",
+    storageBucket: "firegram-ecce9.appspot.com",
+    messagingSenderId: "140330989964",
+    appId: "1:140330989964:web:d70f85501515f1caf7fea9"
 };
 
 firebase.initializeApp(firebaseConfig);
